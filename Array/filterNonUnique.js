@@ -1,4 +1,4 @@
-// 找出没有重复出现的数组元素
+// 找出没有重复出现的数组元素-去重
 const filterNonUnique = arr => arr.filter(i => arr.indexOf(i) === arr.lastIndexOf(i))
 
 // 例:
